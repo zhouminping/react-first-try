@@ -12,6 +12,13 @@
       var data = 123;
 
       var MyTitle = React.createClass({
+
+        getDefaultProps: function () {
+            return {
+                title: 'Hello Wolrd'
+            };
+        },
+
         propTypes: {
           title: React.PropTypes.string.isRequired,
         },
