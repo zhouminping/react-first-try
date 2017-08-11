@@ -4,7 +4,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-//test2
+//test6
 
 ReactDOM.render(
     <h1>Hello, world!</h1>,
